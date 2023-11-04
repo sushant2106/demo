@@ -6,6 +6,7 @@ class Piece(Enum):
     Queen=2
     Rook=4
     Bishop=4
+    dub=5
 
 
 class Piecvalue(Enum):
@@ -16,3 +17,6 @@ class Piecvalue(Enum):
 
 piece=Piecvalue.Queen
 print(piece.value)
+
+
+print(Piece.Rook.value)
